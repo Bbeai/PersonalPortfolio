@@ -75,3 +75,49 @@ header .container-texts .texts .prefession {
   font-size: 20px;
   line-height: 20px;
 }
+
+/**MAIN*/
+
+.main .container {
+  overflow: visible; /*ya antes el contenedor general tenia
+  overflow;hidden, pero la foto se pone atras
+  para que la foto se vea enfrente le decimos que el contenedor
+  que esta en main tenga un overflow:visible*/
+}
+
+.main .about-that {
+  text-align: center;
+}
+
+.main .about-that .photo {
+  margin-top: -60px;
+}
+
+.main .about-that .photo img {
+  vertical-align: top;
+  border-radius: 50%;
+  border: 7px solid rgba(255, 255, 255, 0.5);
+}
+
+.main .about-that .texts {
+  color: #5a5a5a;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 30px;
+  width: 80%;
+  margin: 40px auto;
+}
+
+.main .about-that .texts .title {
+  font-size: 34px;
+  line-height: 34px;
+  margin-bottom: 40px;
+  font-weight: 300;
+  color: #dd820d;
+  text-align: center;
+}
+
+.main .about-that .texts .bold {
+  color: #3895ea;
+  text-decoration: underline;
+}
