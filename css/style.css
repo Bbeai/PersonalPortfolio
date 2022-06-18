@@ -121,3 +121,56 @@ header .container-texts .texts .prefession {
   color: #3895ea;
   text-decoration: underline;
 }
+
+.main .works {
+  background: #f4f9f0;
+  padding: 60px 0;
+}
+
+.main .works .container {
+  /*  overflow: hidden;*/
+  font-size: 34px;
+  line-height: 20px;
+  margin-bottom: 43px;
+  font-weight: 300;
+  color: #323068;
+  text-align: center;
+}
+
+.main .works .container-works {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.main .works .container-works .work {
+  width: 23%;
+  margin-bottom: 40px;
+}
+
+.main .works .works-container .work .thumb {
+  width: 100%;
+}
+.main .works .container-works .work .thumb img {
+  width: 100%;
+  vertical-align: top;
+  border-radius: 5px;
+}
+
+.main .works .works-container .work .description {
+  text-align: center;
+}
+
+.main .works .container-works .work .description .name {
+  font-weight: 700;
+  color: #3895ea;
+  font-size: 20px;
+}
+
+.main .works .container-works .work .description .category {
+  font-size: 14px;
+  color: #636363;
+  font-weight: 400;
+}
