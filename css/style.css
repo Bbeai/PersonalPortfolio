@@ -179,7 +179,7 @@ header .container-texts .texts .prefession {
 
 /*Footer*/
 footer {
-  padding: 60px 0;
+  /*padding: 60px 0;*/
 }
 
 footer .contact .title {
@@ -210,7 +210,7 @@ footer .contact .form textarea {
 footer .contact .form input[type="text"]:focus,
 footer .contact .form input[type="mail"]:focus,
 footer .contact .form textarea:focus {
-  border: 3px solid #3895ea;
+  border: 2px solid #3895ea;
 }
 
 footer .contact .form input[type="text"],
@@ -237,8 +237,47 @@ footer .contact .form .button {
   border-radius: 3px;
   padding: 15px 40px;
   cursor: pointer;
+  margin-bottom: 50px;
 }
 
 footer .contact .form .button:hover {
   background: #387bea;
+}
+
+footer .social-media {
+  background: #1e2b38;
+  padding: 60px 0;
+}
+
+footer .social-media .container {
+  display: flex;
+  justify-content: center;
+}
+
+footer .social-media a {
+  color: #fff;
+  text-align: center;
+  width: 100px;
+  display: block;
+  padding: 15px 0;
+  border-radius: 3px;
+  font-size: 30px;
+  margin: 0 20px;
+}
+
+footer .social-media .twitter:hover {
+  background: #1da1f2;
+}
+
+footer .social-media .facebook:hover {
+  background: #3b5990;
+}
+footer .social-media .instagram:hover {
+  background: #cd201f;
+}
+footer .social-media .youtube:hover {
+  background: #666666;
+}
+footer .social-media .github:hover {
+  background: #3f729b;
 }
