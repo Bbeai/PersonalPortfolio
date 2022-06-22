@@ -281,3 +281,37 @@ footer .social-media .youtube:hover {
 footer .social-media .github:hover {
   background: #3f729b;
 }
+
+/*Responsive design*/
+
+@media screen and (max-width: 800px) {
+  header .menu {
+    text-align: center;
+  }
+
+  .main .works .container-works .work {
+    width: 46%; /*poner dos imagenes*/
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header .container-texts .texts .name {
+    font-size: 35px;
+  }
+
+  header .container-texts .texts .prefession {
+    font-size: 18px;
+  }
+
+  header .container-texts .texts {
+    border: 3px solid rgb(255, 255, 255);
+    display: inline-block;
+    text-align: center;
+    padding: 10px 30px;
+  }
+
+  footer .social-media .container {
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+}
